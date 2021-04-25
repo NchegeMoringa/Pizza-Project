@@ -6,7 +6,8 @@
 [Narikso Chege](https://github.com/NchegeMoringa)
 
 ## Description
-
+Chei's pizza is a web application for ordering pizza online from the comfort of your home. We offer delivery and have
+a variety of tasty pizza for our customers to choose from. The code used is HTML,CSS,Bootstrap,JQuery and Javascript.
 
 
 
