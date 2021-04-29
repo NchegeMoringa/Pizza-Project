@@ -49,21 +49,21 @@ function calculateCrust() {
         return cost;
     } else return 0;
 };
-
+// size price function
 function calculateSize(size) {
     if (size === "small") {
-        return 6;
+        return 500;
     } else if (size === "Medium") {
-        return 10;
+        return 1000;
     } else if (size === "Large") {
-        return 14;
+        return 1500;
     } else if (size === "X-Large") {
-        return 16;
+        return 2000;
     }
 };
 
 function concat(toppings, cost) {
-    if (cost === 0) {
+    if (cost === 100) {
         return "NONE";
     } else if (cost >= 1) {
         var oneWord = toppings.join(", ");
