@@ -7,6 +7,9 @@
     Large = 1500
     X-large = 2000
 
+    Cheese = 150
+
+
 */
 
 function getValues() {
@@ -38,14 +41,14 @@ function calculateMeatVeggie(array) {
 
 function calculateCheese() {
     if ($('input[name=cheeseRadio]:checked').val() === 'Extra Cheese') {
-        var cost = 3;
+        var cost = 150;
         return cost;
     } else return 0;
 };
 
 function calculateCrust() {
     if ($('input[name=crustRadio]:checked').val() === 'Cheese Stuffed Crust') {
-        var cost = 3;
+        var cost = 100;
         return cost;
     } else return 0;
 };
